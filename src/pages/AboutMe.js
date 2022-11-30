@@ -22,7 +22,7 @@ const About = () => {
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
 			>
-				<AboutCounter />
+				{/*<AboutCounter />*/}
 			</motion.div>
 
 			<motion.div
@@ -31,7 +31,10 @@ const About = () => {
 				exit={{ opacity: 0 }}
 				className="container mx-auto"
 			>
+				{/*
 				<AboutClients />
+				*/}
+				
 			</motion.div>
 		</AboutMeProvider>
 	);

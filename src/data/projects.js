@@ -5,6 +5,8 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import TodoList from '../images/Todolist.jpg';
+import MusicPhoto from '../images/music photo.jpg';
 
 export const projectsData = [
 	{
@@ -48,4 +50,18 @@ export const projectsData = [
 		category: 'Web Application',
 		img: WebImage1,
 	},
+
+	{
+		id: 7,
+		title: 'Todo List App',
+		category: 'Mobile Application',
+		img: TodoList,
+	},
+
+	{
+		id: 8,
+		title: 'Music Application',
+		category: 'Mobile Application',
+		img: MusicPhoto,
+	}
 ];
