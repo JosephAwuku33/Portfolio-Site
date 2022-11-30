@@ -875,6 +875,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-semibold {
   font-weight: 600;
 }
+.font-extrabold {
+  font-weight: 800;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -890,12 +893,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tracking-wider {
   letter-spacing: 0.05em;
 }
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
 .text-primary-dark {
   --tw-text-opacity: 1;
-  color: rgb(61 36 56 / var(--tw-text-opacity));
+  color: rgb(3 25 47 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -911,7 +911,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-ternary-dark {
   --tw-text-opacity: 1;
-  color: rgb(31 56 81 / var(--tw-text-opacity));
+  color: rgb(31 72 81 / var(--tw-text-opacity));
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
@@ -967,7 +967,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:bg-ternary-dark:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 56 81 / var(--tw-bg-opacity));
+  background-color: rgb(31 72 81 / var(--tw-bg-opacity));
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
@@ -979,7 +979,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:text-primary-dark:hover {
   --tw-text-opacity: 1;
-  color: rgb(61 36 56 / var(--tw-text-opacity));
+  color: rgb(3 25 47 / var(--tw-text-opacity));
 }
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
@@ -1020,7 +1020,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:border-ternary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(31 56 81 / var(--tw-border-opacity));
+  border-color: rgb(31 72 81 / var(--tw-border-opacity));
 }
 .dark .dark\:border-secondary-dark {
   --tw-border-opacity: 1;
@@ -1028,15 +1028,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:border-primary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(61 36 56 / var(--tw-border-opacity));
-}
-.dark .dark\:bg-primary-dark {
-  --tw-bg-opacity: 1;
-  background-color: rgb(61 36 56 / var(--tw-bg-opacity));
+  border-color: rgb(3 25 47 / var(--tw-border-opacity));
 }
 .dark .dark\:bg-ternary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(31 56 81 / var(--tw-bg-opacity));
+  background-color: rgb(31 72 81 / var(--tw-bg-opacity));
+}
+.dark .dark\:bg-primary-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 25 47 / var(--tw-bg-opacity));
 }
 .dark .dark\:bg-gray-200 {
   --tw-bg-opacity: 1;

@@ -10,6 +10,6 @@ export const aboutMeData = [
 
 	{
 		id: 3,
-		bio: 'This website was made with React Js and Tailwind CSS'
+		bio: 'This website was made with React Js and Tailwind CSS and is still in current works. Final touches will be made and the site would be updated soon with a plethora of projects soon.'
 	}
 ];
