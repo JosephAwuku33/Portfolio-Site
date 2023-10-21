@@ -1,11 +1,12 @@
-
+import { useParams } from 'react-router-dom';
 import useSelectedProject from '../../hooks/useSelectedProject';
 
 const ProjectGallery = () => {
+	const { id } = useParams();
 	
-
-	const selectedProjectId = 1;
-	const selectedProject = useSelectedProject(selectedProjectId);
+	const projectID = parseInt(id)
+	
+	const selectedProject = useSelectedProject(projectID);
 
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">

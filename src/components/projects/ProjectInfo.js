@@ -1,11 +1,13 @@
 
 import useSelectedProject from '../../hooks/useSelectedProject';
-
+import { useParams } from 'react-router-dom';
 
 const ProjectInfo = () => {
 
-	const selectedProjectId = 1;
-	const selectedProject = useSelectedProject(selectedProjectId);
+	const { id } = useParams();
+	
+	const projectID = parseInt(id)
+	const selectedProject = useSelectedProject(projectID);
 
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
