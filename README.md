@@ -12,7 +12,7 @@ A simple Portfolio website made with React and Tailwind CSS
 
 ## Demo
 
-- [Joseph's Porfolio](joseph-portfolio-site.netlify.app)
+- [Joseph's Porfolio](https://joseph-portfolio-site.netlify.app)
 
 
 ## Tech Stack
