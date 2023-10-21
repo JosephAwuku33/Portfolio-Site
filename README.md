@@ -1,11 +1,51 @@
-Read Me file for this portfolio site.
 
-This portfolio site was made with React Js, Tailwind CSS and Framer Motion as well.
+# Portfolio Website
 
-It's still in progress and there are a lot of touches to be made.
+A simple Portfolio website made with React and Tailwind CSS
 
-I cloned a github repositiory and made some changes to it as well
-Thumbs up to the original author Nangialai Stoman.
 
-You can check out the site from this page:
-<a href="https://joseph-portfolio-site.netlify.app/">Portfolio site/</a>
+## Acknowledgements
+
+ - [Nangialai Stoman](https://hgithub.com/realstoman)
+
+
+
+## Demo
+
+- [Joseph's Porfolio](joseph-portfolio-site.netlify.app)
+
+
+## Tech Stack
+
+- React
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/JosephAwuku33/Portfolio-Site
+```
+
+Go to the project directory
+
+```bash
+  cd Portfolio-Site
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
