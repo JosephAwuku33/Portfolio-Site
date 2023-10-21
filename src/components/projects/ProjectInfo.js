@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 const ProjectInfo = () => {
 
 	const { id } = useParams();
-	
+
 	const projectID = parseInt(id)
 	const selectedProject = useSelectedProject(projectID);
 
@@ -30,7 +30,7 @@ const ProjectInfo = () => {
 											href="https://stoman.me"
 											className={
 												info.title === 'Website' ||
-												info.title === 'Phone'
+													info.title === 'Phone'
 													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
 													: ''
 											}
@@ -58,12 +58,10 @@ const ProjectInfo = () => {
 				{/* Single project technologies */}
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{selectedProject.ProjectInfo.Technologies[0].title}
+						{selectedProject.ProjectInfo.Technologies.title}
 					</p>
 					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-						{selectedProject.ProjectInfo.Technologies[0].techs.join(
-							', '
-						)}
+						{selectedProject.ProjectInfo.Technologies.techs}
 					</p>
 				</div>
 
