@@ -1,7 +1,7 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import developerLight from '../../images/developer.svg';
-import developerDark from '../../images/developer-dark.svg';
-import Quote from '../../images/quote.jpg';
+//import developerDark from '../../images/developer-dark.svg';
+//import Quote from '../../images/quote.jpg';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {

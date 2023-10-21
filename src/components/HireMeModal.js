@@ -4,9 +4,7 @@ import Button from './reusable/Button';
 
 const selectOptions = [
 	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Mobile Application'
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {

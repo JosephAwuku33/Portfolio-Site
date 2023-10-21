@@ -1,12 +1,15 @@
-import { useContext } from 'react';
-import SingleProjectContext from '../../context/SingleProjectContext';
+
+import useSelectedProject from '../../hooks/useSelectedProject';
 
 const ProjectGallery = () => {
-	const { singleProjectData } = useContext(SingleProjectContext);
+	
+
+	const selectedProjectId = 1;
+	const selectedProject = useSelectedProject(selectedProjectId);
 
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-			{singleProjectData.ProjectImages.map((project) => {
+			{selectedProject.ProjectImages.map((project) => {
 				return (
 					<div className="mb-10 sm:mb-0" key={project.id}>
 						<img
