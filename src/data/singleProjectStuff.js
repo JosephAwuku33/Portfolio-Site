@@ -1,6 +1,7 @@
 // Import images
 import Image1 from '../images/ui-project-1.jpg';
 import Image2 from '../images/web-project-2.jpg';
+import Image4 from '../images/ui-project-2.jpg';
 // Import icons
 import {
     FiFacebook,
@@ -24,12 +25,43 @@ export const singleProjectStuff = [
                 title: 'Kabul Project Management UI',
                 img: Image1,
             },
+            {
+                id: 2,
+                title: 'Kabul Project Management UI',
+                img: Image2,
+            },
+            
+            {
+                id: 3,
+                title: 'Kabul Project Management UI',
+                img: Image4,
+            },
             // ... Add more images if needed
         ],
         ProjectInfo: {
             ClientHeading: 'Personal Project',
             CompanyInfo: [
                 // ... Company Info details
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'JayKay Services',
+                },
+                {
+                    id: 2,
+                    title: 'Services',
+                    details: 'Frontend Development',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://personally-8c35f.web.app',
+                },
+                {
+                    id: 4,
+                    title: 'Phone',
+                    details: '020 076 5236',
+                },
             ],
             ObjectivesHeading: 'Objective',
             ObjectivesDetails: 'Just a short journal of my tech journey and space',
@@ -95,7 +127,18 @@ export const singleProjectStuff = [
             {
                 id: 1,
                 title: 'Kabul Project Management UI',
+                img: Image1,
+            },
+            {
+                id: 2,
+                title: 'Kabul Project Management UI',
                 img: Image2,
+            },
+            
+            {
+                id: 3,
+                title: 'Kabul Project Management UI',
+                img: Image4,
             },
             // ... Add more images if needed
         ],
@@ -103,6 +146,26 @@ export const singleProjectStuff = [
             ClientHeading: 'PayBox Global',
             CompanyInfo: [
                 // ... Company Info details
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'PayBox',
+                },
+                {
+                    id: 2,
+                    title: 'Services',
+                    details: 'Frontend Development',
+                },
+                {
+                    id: 3,
+                    title: 'Mobile App',
+                    details: 'https://github.com/JosephAwuku33/Ticketer',
+                },
+                {
+                    id: 4,
+                    title: 'Phone',
+                    details: '020 076 5236',
+                },
             ],
             ObjectivesHeading: 'Objective',
             ObjectivesDetails: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
@@ -182,12 +245,43 @@ export const singleProjectStuff = [
                 title: 'Kabul Project Management UI',
                 img: Image1,
             },
+            {
+                id: 2,
+                title: 'Kabul Project Management UI',
+                img: Image2,
+            },
+            
+            {
+                id: 3,
+                title: 'Kabul Project Management UI',
+                img: Image4,
+            },
             // ... Add more images if needed
         ],
         ProjectInfo: {
             ClientHeading: 'J.A.Awuku Enterprise',
             CompanyInfo: [
                 // ... Company Info details
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'J.A.Awuku Enterprises',
+                },
+                {
+                    id: 2,
+                    title: 'Services',
+                    details: 'UI Design & Frontend Development',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://github.com/JosephAwuku33/Stock-Tracks',
+                },
+                {
+                    id: 4,
+                    title: 'Phone',
+                    details: '020 076 5236',
+                },
             ],
             ObjectivesHeading: 'Objective',
             ObjectivesDetails: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
@@ -265,14 +359,44 @@ export const singleProjectStuff = [
             {
                 id: 1,
                 title: 'Kabul Project Management UI',
+                img: Image1,
+            },
+            {
+                id: 2,
+                title: 'Kabul Project Management UI',
                 img: Image2,
+            },
+            
+            {
+                id: 3,
+                title: 'Kabul Project Management UI',
+                img: Image4,
             },
             // ... Add more images if needed
         ],
         ProjectInfo: {
             ClientHeading: 'Personal',
             CompanyInfo: [
-                // ... Company Info details
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Basically mine',
+                },
+                {
+                    id: 2,
+                    title: 'Services',
+                    details: 'UI Design & Frontend Development & API integration',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://github.com/JosephAwuku33/AIBot',
+                },
+                {
+                    id: 4,
+                    title: 'Phone',
+                    details: '020 076 5236',
+                },
             ],
             ObjectivesHeading: 'Objective',
             ObjectivesDetails: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',

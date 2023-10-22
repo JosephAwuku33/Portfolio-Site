@@ -8,7 +8,8 @@ const ProjectInfo = () => {
 
 	const projectID = parseInt(id)
 	const selectedProject = useSelectedProject(projectID);
-
+	const websiteLink = selectedProject.ProjectInfo.CompanyInfo.find(item => item.id === 3).details;
+	console.log(websiteLink);
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
@@ -27,7 +28,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href={`${websiteLink}`}
 											className={
 												info.title === 'Website' ||
 													info.title === 'Phone'
@@ -58,10 +59,12 @@ const ProjectInfo = () => {
 				{/* Single project technologies */}
 				<div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{selectedProject.ProjectInfo.Technologies.title}
+						{selectedProject.ProjectInfo.Technologies[0].title}
+
+						
 					</p>
 					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-						{selectedProject.ProjectInfo.Technologies.techs}
+						{selectedProject.ProjectInfo.Technologies[0].techs.join(", ")}
 					</p>
 				</div>
 
